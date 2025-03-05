@@ -30,6 +30,6 @@ public class BankAccountSystem {
         }
             System.out.println("Insufficient funds or the amount entered is invalid. Please try again.");
         }
-
+        scanner.close();
     }
 }
